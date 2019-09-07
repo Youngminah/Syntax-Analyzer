@@ -1,4 +1,4 @@
-# Syntax-Analyzer
+# Syntax-Analyzer(bottom-up parser)
 The goal of the project is to implement a syntax analyzer (a.k.a., parser) as we’ve 
 learned. More specifically, you will implement the syntax analyzer for a simplified C programming 
 language with the following context free grammar G within python3; 
@@ -51,6 +51,11 @@ FCALL, RETURN
 ###### if-else statements without else are not allowed (CFG line 8) 
 ###### The right hand side of assignment operations can be classified into three types; 1) arithmetic 
 ###### operations (expressions), 2) function calls, and 3) literal strings (CFG line 10 ~ 14) 
-###### Arithmetic operations are the combinations of +, -, *, / operators (CFG line 11 ~ 13) 
+###### Arithmetic operations are the combinations of +, -, *, / operators (CFG line 11 ~ 13)
+
+
+If you want to implement a bottom-up parser, then you are required 1) to construct an NFA 
+for recognizing viable prefixes of G, 2) to convert the NFA into a DFA, 3) to compute follow 
+sets, 4) to construct a SLR parsing table, and 5) to implement a SLR parser. 
  
  
