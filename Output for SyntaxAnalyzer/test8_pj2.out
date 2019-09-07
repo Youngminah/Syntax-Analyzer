@@ -1,0 +1,3 @@
+GRAMMAR : REJECTED 
+STACK: ['0', 'VDECL', '4', 'vtype', '1', 'identifier', '5', 'lparen', '8', 'rparen', '11', 'lbrace', '14', 'vtype', '19', 'identifier', '31']<- Error occured from here.
+Index Error!!
