@@ -5,7 +5,8 @@ language with the following context free grammar G within python3;
 
 
 
-CFG G: 01:				CODE→VDECL	CODE	|	FDECL	CODE	|	ϵ 
+CFG G: 
+01:				CODE→VDECL	CODE	|	FDECL	CODE	|	ϵ 
 02:				VDECL→vtype	id	semi 
 03:				FDECL→vtype	id	lparen	ARG	rparen	lbrace	BLOCK	𝐑𝐄𝐓𝐔𝐑𝐍	rbrace 
 04:				ARG→vtype	id	MOREARGS	|	ϵ 
